@@ -8,9 +8,9 @@ A responsive React web application to search GitHub users with live filtering, d
 - Debounce user input to reduce API calls
 - Cancel stale requests to prevent race conditions
 - Loading indicator & friendly error messages
-- Multi-language support (English & Vietnamese)
+- Multi language support (English & Vietnamese)
 - Material UI responsive design
-- Domain-driven architecture (DDD)
+- Domain-Driven Design (DDD)
 - Core library reusable across apps
 - Monorepo managed with Yarn workspaces
 - Unit tests with Jest & React Testing Library
@@ -77,7 +77,7 @@ A responsive React web application to search GitHub users with live filtering, d
 
 ---
 
-The github-user-core-lib is written to be reusable and can be published to a private registry (e.g., Artifactory) and installed via Yarn.
+The github-user-core-lib is written to be reusable and can be published to a private registry (JFrog, Nexus, ...) and installed via Yarn.
 
 ### From root
 
