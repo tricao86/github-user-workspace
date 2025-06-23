@@ -38,7 +38,7 @@ A responsive React web application to search GitHub users with live filtering, d
 
 ### 1. Clone the repo
 
-git clone https://github.com/your-username/github-user-workspace.git
+git clone https://github.com/tricao86/github-user-workspace.git
 cd github-user-workspace
 
 ### 2. Install dependencies
