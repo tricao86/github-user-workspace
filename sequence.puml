@@ -1,0 +1,40 @@
+@startuml Search Github Users
+
+title Search Github Users
+
+actor "User" as user
+participant "Fronted App" as app
+participant "Github" as git
+
+user -> app: Search
+app -> app: Check query length
+
+alt If query length >= 3
+    app -> git: Fecth users
+    app --> user: Show loading indicator
+        note right
+            Show loading indicator while fecth data
+        end note
+    git --> app: Response
+    app -> app: Check response
+        alt Response status == 403
+            app --> user: Show error message
+            note right
+                Show rate limit error messsage
+            end note
+        else Reponse is error
+            app --> user: Show error message
+            note right
+                Show network error message
+            end note
+        else Success
+            app --> user: Display users
+        end
+else Else query length < 3
+    app -> app: Reset
+    app --> user: Refresh
+end
+
+
+@enduml
+

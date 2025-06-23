@@ -1,0 +1,16 @@
+{
+  "name": "github-user-workspace",
+  "scripts": {
+    "build": "npm run build -w github-user-core-lib && npm run build -w github-user-app",
+    "dev": "npm run dev -w github-user-app",
+    "sit": "npm run sit -w github-user-app",
+    "uat": "npm run uat -w github-user-app",
+    "prod": "npm run prod -w github-user-app",
+    "test": "npm run test -w github-user-app"
+  },
+  "private": true,
+  "workspaces": [
+    "github-user-core-lib",
+    "github-user-app"
+  ]
+}

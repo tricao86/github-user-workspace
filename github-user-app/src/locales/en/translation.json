@@ -1,0 +1,17 @@
+{
+  "errors": {
+    "unknown": "Unknown error occurred.",
+    "network_error": "Failed to fetch users. Please try again."
+  },
+
+  "language": "Language",
+  "title": "GitHub User Search",
+  "search_placeholder": "Search GitHub users...",
+  "loading": "Loading...",
+  "no_results": "No users found.",
+  "rate_limit": "API rate limit exceeded. Please try again later.",
+  "avatar": "Avatar",
+  "user_name": "Username",
+  "type": "Type",
+  "score": "Score"
+}

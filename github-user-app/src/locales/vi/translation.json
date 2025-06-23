@@ -1,0 +1,16 @@
+{
+  "errors": {
+    "unknown": "Đã xảy ra lỗi không xác định.",
+    "network_error": "Không thể lấy danh sách người dùng. Vui lòng thử lại sau."
+  },
+  "language": "Ngôn ngữ",
+  "title": "Tìm kiếm người dùng GitHub",
+  "search_placeholder": "Tìm kiếm người dùng GitHub...",
+  "loading": "Đang tải...",
+  "no_results": "Không tìm thấy người dùng nào.",
+  "rate_limit": "Đã vượt quá giới hạn API. Vui lòng thử lại sau.",
+  "avatar": "Ảnh đại diện",
+  "user_name": "Tên người dùng",
+  "type": "Loại",
+  "score": "Điểm số"
+}
